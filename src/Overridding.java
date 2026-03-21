@@ -1,0 +1,19 @@
+class Twice{
+    void member() {
+        System.out.println("I'm a Twice");
+    }
+}
+
+class Nayeon extends Twice{
+    void member() {
+        System.out.println("I'm a Nayeo n");
+    }
+}
+
+public class Overridding {
+    public static void main(String[] args) {
+        Nayeon n = new Nayeon();
+        n.member();
+        System.out.println();
+    }
+}
