@@ -6,7 +6,7 @@ class Twice{
 
 class Nayeon extends Twice{
     void member() {
-        System.out.println("I'm a Nayeo n");
+        System.out.println("I'm a Nayeon");
     }
 }
 
