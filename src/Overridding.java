@@ -6,13 +6,13 @@ class Twice{
 
 class Nayeon extends Twice{
     void member() {
-        System.out.println("I'm a Nayeon");
+        System.out.println("I'm a Nayeon ");
     }
 }
 
 public class Overridding {
     public static void main(String[] args) {
-        Nayeon n = new Nayeon();
+        Twice n = new Nayeon();
         n.member();
         System.out.println();
     }
