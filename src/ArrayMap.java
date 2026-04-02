@@ -12,9 +12,9 @@ public class ArrayMap {
         hashMap.put("a", 10);
         hashMap.put("c", 30);
 
-        hashMap2.add(10);
-        hashMap2.add(10);
         hashMap2.add(30);
+        hashMap2.add(40);
+        hashMap2.add(50);
         for(String key : hashMap.keySet()){
             System.out.println(key + " : " + hashMap.get(key));
         }
